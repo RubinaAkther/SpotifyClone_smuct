@@ -1,3 +1,4 @@
+import Player from "./components/Player";
 import Sidebar from "./components/Sidebar";
 
 export default function App() {
@@ -5,10 +6,8 @@ export default function App() {
     <div className="h-screen bg-black">
       <div className="h-[90%] flex">
         <Sidebar />
-        <div className="w-full text-white p-4">
-          <h1>Main Content Area</h1>
-        </div>
       </div>
+      <Player />
     </div>
   );
 }
